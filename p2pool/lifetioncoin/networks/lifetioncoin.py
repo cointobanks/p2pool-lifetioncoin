@@ -9,8 +9,8 @@ from p2pool.util import pack
 
 P2P_PREFIX = 'bf0c6bbd'.decode('hex')
 P2P_PORT = 7977
-ADDRESS_VERSION = 76
-SCRIPT_ADDRESS_VERSION = 16
+ADDRESS_VERSION = 48
+SCRIPT_ADDRESS_VERSION = 19
 RPC_PORT = 9555
 RPC_CHECK = defer.inlineCallbacks(lambda lifetioncoind: defer.returnValue(
             'lifetioncoin' in (yield lifetioncoind.rpc_help()) and
