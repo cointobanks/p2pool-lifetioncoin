@@ -8,10 +8,10 @@ from p2pool.util import pack
 
 
 P2P_PREFIX = 'cee2caff'.decode('hex')
-P2P_PORT = 19999
+P2P_PORT = 17977
 ADDRESS_VERSION = 140
 SCRIPT_ADDRESS_VERSION = 19
-RPC_PORT = 19998
+RPC_PORT = 19555
 RPC_CHECK = defer.inlineCallbacks(lambda lifetioncoind: defer.returnValue(
             'lifetioncoin' in (yield lifetioncoind.rpc_help()) and
             (yield lifetioncoind.rpc_getblockchaininfo())['chain'] != 'main'
