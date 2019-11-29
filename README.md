@@ -2,7 +2,7 @@ Requirements:
 -------------------------
 Generic:
 
-* Dashd >=0.13.0.0
+* Lifetioncoind >=0.13.0.0
 * Python >=2.7
 * Twisted >=13.0.0
 * Zope.interface >=3.8.0
@@ -19,14 +19,14 @@ Download the required submodules:
     git submodule init
     git submodule update
 
-dash_hash:
+x11_hash:
 
-    cd dash_hash
+    cd x11_hash
     python setup.py install --user
 
 Running P2Pool:
 -------------------------
-To use P2Pool, you must be running your own local dashd. For standard
+To use P2Pool, you must be running your own local lifetioncoind. For standard
 configurations, using P2Pool should be as simple as:
 
     python run_p2pool.py
@@ -58,4 +58,4 @@ Thanks to:
 * The Bitcoin Foundation for its generous support of P2Pool
 * The Litecoin Project for its generous donations to P2Pool
 * The Vertcoin Community for its great contribution to P2Pool
-* jakehaas, vertoe, chaeplin, dstorm, poiuty, elbereth  and mr.slaveg from the Darkcoin/Dash Community
+* jakehaas, vertoe, chaeplin, dstorm, poiuty, elbereth  and mr.slaveg from the Darkcoin/Lifetioncoin Community
